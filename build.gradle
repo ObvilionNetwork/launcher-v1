@@ -1,0 +1,32 @@
+plugins {
+    id 'java'
+}
+
+version '1.0'
+
+repositories {
+    mavenCentral()
+    jcenter()
+    maven { url "https://jitpack.io" }
+}
+
+dependencies {
+    compile 'com.github.ObvilionNetwork:JSONLib:1.0'
+    compile 'club.minnced:java-discord-rpc:2.0.2'
+    compile 'org.apache.httpcomponents:httpclient:4.5.13';
+
+    compile (files('libs/javafx.base.jar'));
+    compile (files('libs/javafx.fxml.jar'));
+    compile (files('libs/javafx.graphics.jar'));
+    compile (files('libs/javafx.controls.jar'));
+}
+
+jar {
+    manifest {
+        attributes 'Main-Class': 'ru.obvilion.launcher.Main'
+        attributes 'JavaFX-Feature-Proxy': 'None'
+    }
+    from {
+        configurations.compile.collect { it.isDirectory() ? it : zipTree(it) }
+    }
+}

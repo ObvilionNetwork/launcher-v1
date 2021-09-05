@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="720.0" prefWidth="1280.0" style="-fx-background-color: #151a23; -fx-max-height: 720; -fx-max-width: 1280;" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ru.obvilion.launcher.gui.controllers.LoadingController">
+   <children>
+      <Polygon fill="#171d28" layoutX="1018.0" layoutY="267.0" points="262.0, 194.0, 262.0, -267.0, -415.0, -267.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" />
+      <Pane layoutX="90.0" layoutY="101.0" prefHeight="200.0" prefWidth="8.0" style="-fx-background-color: #d7d7d7; -fx-background-radius: 100;" />
+      <Label id="title" layoutX="114.0" layoutY="96.0" text="Obvilion" textFill="#92b0dd">
+         <font>
+            <Font size="105.0" />
+         </font>
+      </Label>
+      <Label id="title" layoutX="144.0" layoutY="195.0" text="Network" textFill="#c5c5c5">
+         <font>
+            <Font size="105.0" />
+         </font></Label>
+      <Circle fill="#151a23" layoutX="1128.0" layoutY="203.0" radius="100.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" />
+      <ImageView id="logotype" fitHeight="167.0" fitWidth="167.0" layoutX="1045.0" layoutY="120.0" pickOnBounds="true" preserveRatio="true" />
+      <Pane layoutX="92.0" layoutY="665.0" prefHeight="12.0" prefWidth="1108.0" style="-fx-background-color: #242d3e; -fx-background-radius: 100;" />
+      <Pane fx:id="loaded" layoutX="92.0" layoutY="665.0" prefHeight="12.0" prefWidth="0.0" style="-fx-background-color: #5288e9; -fx-background-radius: 100;" />
+      <Label fx:id="now" id="title" alignment="CENTER" contentDisplay="CENTER" layoutX="96.0" layoutY="637.0" prefHeight="17.0" prefWidth="1098.0" text="Загрузка: Ожидание подключения..." textFill="#7c7c7c">
+         <font>
+            <Font size="15.0" />
+         </font></Label>
+      <Label fx:id="percent" id="title" alignment="CENTER" layoutX="615.0" layoutY="681.0" prefHeight="21.0" prefWidth="51.0" text="0%" textFill="#c6d4da">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="720.0" prefWidth="1280.0" style="-fx-background-color: #18191b;" xmlns="http://javafx.com/javafx/8.0.152" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ru.obvilion.launcher.gui.controllers.LoginController">
+
+   <Pane layoutX="486.0" layoutY="113.0" prefHeight="450.0" prefWidth="308.0">
+      <Pane layoutY="68.0" prefHeight="398.0" prefWidth="308.0" style="-fx-background-color: #22252a; -fx-background-radius: 22;">
+         <TextField id="input_field" fx:id="login" layoutX="26.0" layoutY="139.0" prefHeight="42.0" prefWidth="257.0" promptText="Логин" style="-fx-background-color: #2d3035; -fx-background-radius: 5;">
+            <font>
+               <Font size="16.0" />
+            </font>
+         </TextField>
+         <PasswordField id="input_field" fx:id="pass" layoutX="26.0" layoutY="198.0" prefHeight="42.0" prefWidth="257.0" promptText="Пароль" style="-fx-background-color: #2d3035; -fx-background-radius: 5;" />
+         <Button fx:id="go" layoutX="84.0" layoutY="292.0" mnemonicParsing="false" prefHeight="34.0" prefWidth="138.0" style="-fx-background-color: transparent; -fx-border-width: 2; -fx-border-color: #1f7abf; -fx-border-radius: 3;" text="Войти">
+            <cursor>
+               <Cursor fx:constant="HAND" />
+            </cursor></Button>
+         <Label id="login_title" alignment="CENTER" contentDisplay="CENTER" layoutX="69.0" layoutY="84.0" prefHeight="34.0" prefWidth="171.0" text="Войти" textAlignment="CENTER" textFill="WHITE">
+            <font>
+               <Font size="30.0" />
+            </font>
+         </Label>
+         <CheckBox fx:id="save" layoutX="26.0" layoutY="253.0" mnemonicParsing="false" text="Запомнить пароль" textFill="#56595d">
+            <cursor>
+               <Cursor fx:constant="HAND" />
+            </cursor></CheckBox>
+         <Label id="text_no" alignment="CENTER" layoutX="39.0" layoutY="349.0" prefHeight="17.0" prefWidth="225.0" text="Нет аккаунта?" textFill="WHITE" />
+         <Label fx:id="text_no" alignment="CENTER" layoutX="59.0" layoutY="367.0" prefHeight="17.0" prefWidth="184.0" text="Зарегестрироваться" textFill="#168de8">
+            <cursor>
+               <Cursor fx:constant="HAND" />
+            </cursor></Label>
+         <ImageView id="logotype" fitHeight="132.0" fitWidth="112.0" layoutX="97.0" layoutY="-34.0" pickOnBounds="true" preserveRatio="true">
+            <Image url="@../images/logo.png" />
+         </ImageView>
+         <ImageView fx:id="close" fitHeight="17.0" fitWidth="16.0" layoutX="268.0" layoutY="21.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+               <Image url="@../images/close.png" />
+            </image>
+            <cursor>
+               <Cursor fx:constant="HAND" />
+            </cursor>
+         </ImageView>
+      </Pane>
+   </Pane>
+</AnchorPane>

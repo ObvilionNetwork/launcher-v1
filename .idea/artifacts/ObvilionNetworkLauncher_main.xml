@@ -1,0 +1,10 @@
+<component name="ArtifactManager">
+  <artifact type="javafx" name="ObvilionNetworkLauncher.main">
+    <output-path>$PROJECT_DIR$/out/artifacts/ObvilionNetworkLauncher_main</output-path>
+    <root id="root">
+      <element id="archive" name="ObvilionNetworkLauncher_main.jar">
+        <element id="module-output" name="ObvilionNetworkLauncher.main" />
+      </element>
+    </root>
+  </artifact>
+</component>

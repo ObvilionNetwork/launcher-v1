@@ -1,0 +1,312 @@
+@font-face {
+    src: url("fonts/bold.ttf");
+}
+@font-face {
+    src: url("fonts/regular.ttf");
+}
+
+#player {
+    -fx-image: url("images/player.png");
+}
+
+#close_image {
+    -fx-image: url("images/close.png");
+}
+#minimize_image {
+    -fx-image: url("images/minimize.png");
+}
+
+.scroll-pane > .viewport {
+   -fx-background-color: transparent;
+}
+.scroll-pane {
+    -fx-background-color:transparent;
+}
+.scroll-bar:horizontal, .scroll-bar:vertical{
+    -fx-background-color:transparent;
+}
+
+.server {
+    -fx-background-color: #0e141a;
+    -fx-background-radius: 7;
+}
+.server_selected {
+    -fx-border-color: #5f97ff;
+    -fx-border-radius: 7;
+    -fx-border-width: 2px
+}
+.server_name {
+    -fx-font-family: "Cera Pro Bold";
+    -fx-font-size: 18px;
+    -fx-text-fill: white;
+}
+.server_title_players {
+    -fx-font-family: "Cera Pro";
+    -fx-font-size: 14px;
+    -fx-text-fill: white;
+}
+.server_title_online {
+    -fx-font-family: "Cera Pro";
+    -fx-font-size: 13px;
+    -fx-text-fill: #d8e4ef;
+}
+.wipe_text {
+    -fx-font-family: "Cera Pro";
+    -fx-font-size: 13.5px;
+    -fx-text-fill: white;
+}
+.wipe_date {
+    -fx-font-family: "Cera Pro";
+    -fx-font-size: 12px;
+    -fx-text-fill: #92a4c8;
+}
+.online {
+    -fx-font-family: "Cera Pro";
+    -fx-font-size: 10px;
+    -fx-text-fill: white;
+    -fx-alignment: CENTER;
+}
+
+/* track это то что сзади, thrumb сама стрелка */
+.scroll-bar:horizontal .track {
+     -fx-background-color: #0f151c;
+     -fx-background-insets: 3.1;
+     -fx-background-radius: 200em;
+}
+.increment-button, .decrement-button {
+    -fx-background-color:transparent;
+}
+.scroll-bar .increment-arrow,
+.scroll-bar .decrement-arrow {
+    -fx-background-color: transparent;
+}
+.scroll-bar:horizontal .thumb {
+    -fx-background-color: #5f97ff;
+	-fx-background-radius: 200em;
+	-fx-background-insets: 3.3;
+}
+.scroll-pane .corner {
+    -fx-background-color: transparent;
+}
+
+#image_border {
+    -fx-border-color: #5f97ff;
+    -fx-border-radius: 1;
+    -fx-border-width: 2px
+}
+#loading {
+    -fx-image: url("images/loading.gif");
+}
+
+#server_name {
+    -fx-font-family: "Cera Pro Bold";
+    -fx-font-size: 22px;
+    -fx-text-fill: white;
+}
+#server_description {
+    -fx-font-family: "Cera Pro";
+    -fx-font-size: 17px;
+    -fx-text-fill: #c3cad4;
+}
+#play{
+    -fx-image: url("images/play.png");
+}
+#logotype {
+    -fx-image: url("images/logo.png");
+}
+#news_label {
+    -fx-font-family: "Cera Pro";
+    -fx-font-size: 18.5px;
+    -fx-text-fill: #e2e8ee;
+}
+#news {
+    -fx-font-family: "Cera Pro";
+    -fx-font-size: 17px;
+    -fx-text-fill: #8498c0;
+}
+#title {
+    -fx-font-family: "Cera Pro Bold";
+}
+
+#login_title {
+    -fx-font-family: "Cera Pro Bold";
+
+}
+
+#input_field {
+    -fx-font-family: "Cera Pro";
+    -fx-font-size: 16px;
+    -fx-text-fill: #f9f9f9;
+}
+#input_field:focused {
+    -fx-text-fill: white;
+}
+
+.check-box {
+    -fx-font-family: "Cera Pro";
+    -fx-font-size: 14px;
+}
+
+.check-box .box {
+    -fx-pref-width: 15px;
+    -fx-pref-height: 15px;
+    -fx-background-color: transparent;
+    -fx-border-color: #56595d;
+    -fx-border-radius:3px;
+}
+
+#go {
+    -fx-font-family: "Cera Pro";
+    -fx-font-size: 16px;
+    -fx-text-fill: white;
+}
+
+#text_no {
+    -fx-font-family: "Cera Pro";
+    -fx-font-size: 14px;
+}
+
+/*  */
+
+#title_options {
+    -fx-font-family: "Cera Pro";
+    -fx-font-size: 22px;
+}
+#title_client {
+    -fx-font-family: "Cera Pro";
+    -fx-font-size: 19px;
+}
+
+#selected {
+    -fx-image: url("images/shadow.png");
+}
+
+#icon_description {
+    -fx-image: url("images/icons/icon_description.png");
+}
+#icon_mods {
+    -fx-image: url("images/icons/icon_mods.png");
+}
+#icon_client_mods {
+    -fx-image: url("images/icons/icon_client_mods.png");
+}
+#icon_texturepacks {
+    -fx-image: url("images/icons/icon_texturepacks.png");
+}
+#icon_shaders {
+    -fx-image: url("images/icons/icon_shaders.png");
+}
+
+#label_list {
+    -fx-font-family: "Cera Pro";
+    -fx-font-size: 16.5px;
+    -fx-text-fill: white;
+
+}
+#label_description {
+    -fx-font-family: "Cera Pro";
+    -fx-font-size: 16.5px;
+    -fx-text-fill: white;
+}
+
+#vip_bg {
+    -fx-background-color: linear-gradient(to top, #202635, #191e29);
+    -fx-background-radius: 13;
+}
+#vip {
+    -fx-image: url("images/vip.png");
+}
+#vip_text {
+    -fx-font-family: "Cera Pro";
+    -fx-font-size: 12px;
+}
+#vip_button {
+    -fx-background-color: #4469ad;
+    -fx-background-radius: 13;
+}
+#vip_button_text {
+    -fx-font-family: "Cera Pro Bold";
+    -fx-font-size: 12px;
+    -fx-text-fill: #f3f9ff;
+}
+
+/*  */
+
+#logo {
+    -fx-image: url("images/logo.png");
+    -fx-opacity: 85%;
+}
+
+#youtube {
+    -fx-image: url("images/youtube.png");
+}
+#discord {
+    -fx-image: url("images/discord.png");
+}
+#vk {
+    -fx-image: url("images/vk.png");
+}
+
+#main_page {
+    -fx-image: url("images/main_page.png");
+}
+#options {
+    -fx-image: url("images/options.png");
+}
+#to_site {
+    -fx-image: url("images/to_site.png");
+}
+
+/*  */
+
+#client_label {
+    -fx-font-family: "Cera Pro";
+    -fx-font-size: 18px;
+    -fx-text-fill: #edeff1;
+}
+#client_path {
+    -fx-font-family: "Cera Pro";
+    -fx-font-size: 17px;
+    -fx-text-fill: #9aa2ab;
+}
+#client_button_text {
+    -fx-font-family: "Cera Pro";
+    -fx-font-size: 17px;
+    -fx-text-fill: white;
+}
+#opt_label {
+    -fx-font-family: "Cera Pro";
+    -fx-font-size: 17px;
+    -fx-text-fill: #d3d3d3;
+}
+#ramCount {
+    -fx-font-family: "Cera Pro";
+    -fx-font-size: 17px;
+    -fx-text-fill: #d3d3d3;
+}
+#removeAllIcon {
+    -fx-image: url("images/icons/icon_clear.png");
+}
+#folderIcon {
+    -fx-image: url("images/icons/icon_folder.png");
+}
+
+.slider .track {
+    -fx-background-color: #5e636e;
+    -fx-background-radius: 3;
+    -fx-padding: 0.5px;
+}
+.slider .thumb {
+    -fx-background-color: #a4a4a4;
+    -fx-background-radius: 0;
+    -fx-pref-height: 18px;
+    -fx-pref-width: 6px;
+}
+.slider .axis .axis-tick-mark, .slider .axis .axis-minor-tick-mark {
+    -fx-background-color: #363636;
+    -fx-fill: #363636;
+    -fx-stroke: #363636;
+}
+.slider .axis {
+    -fx-translate-y: 8.0;
+}
